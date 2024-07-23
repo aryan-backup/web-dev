@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Tip Calculator</h1>
+    <div class="input-feilds">
+      <div class="amount">
+        <p>Amount:</p>
+        <input type="number" id="amount">
+      </div>
+      <div class="rate">
+        <p>Tip %:</p>
+        <input type="number" id="rate">
+      </div>
+      <div class="person">
+        <p>Number of Persons:</p>
+        <input type="number" id="person">
+      </div>
+    </div>
+    <div class="calculate-btn">
+      <button class="btn">Calculate</button>
+    </div>
+
+    <div class="summary-container">
+      <h3>Tip Summary</h3>
+      <div class="bill_amount">
+        <p>Bill Amount</p>
+        <span>:</span>
+        <p class="total-amount"></p>
+      </div>
+      <div class="tip_amount">
+        <p>Tip Amount</p>
+        <span>:</span>
+        <p class="tip"></p>
+      </div>
+      <div class="total-payable">
+        <p>Total Payable</p>
+        <span>:</span>
+        <p class="Payable"></p>
+      </div>
+      <div class="per_person">
+        <p>Per Person</p>
+        <span>:</span>
+        <p class="person_amount"></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

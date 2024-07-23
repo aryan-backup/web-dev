@@ -1,0 +1,5 @@
+WAP to implement simple class and object
+WAP to find area of a rectangle by using parameter constructor 
+WAP to implement copy constructor 
+WAP to implement destructor 
+WAP to implement local static member
